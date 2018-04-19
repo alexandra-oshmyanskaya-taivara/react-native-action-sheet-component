@@ -224,7 +224,7 @@ class ActionSheet extends Component {
     const { onShow, position } = this.props;
     const initialPosition = position === 'top'
       ? 0
-      : -180;
+      : -250;
 
     this.setState({ show: true });
     this.setActionSheetState(initialPosition, () => {
