@@ -33,7 +33,7 @@ const ACTION_SHEET_CLOSED: string = 'closed';
 const DEFAULT_ANIMATION_DURATION: number = 180;
 
 // action sheet positions
-const INITIAL_POSITION_BOTTOM: number = -180;
+const INITIAL_POSITION_BOTTOM: number = -250;
 const INITIAL_POSITION_TOP: number = 0;
 
 // events

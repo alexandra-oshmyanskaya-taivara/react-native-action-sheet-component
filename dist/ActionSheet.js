@@ -33,7 +33,7 @@ var ACTION_SHEET_CLOSED='closed';
 var DEFAULT_ANIMATION_DURATION=180;
 
 
-var INITIAL_POSITION_BOTTOM=-180;
+var INITIAL_POSITION_BOTTOM=-250;
 var INITIAL_POSITION_TOP=0;
 
 
@@ -104,7 +104,7 @@ defaultValue:null,
 hideOnSelceted:true,
 hideOnHardwareBackPress:true,
 children:null,
-maxHeight:_reactNative.Dimensions.get('window').height/2};var
+maxHeight:_reactNative.Dimensions.get('window').height-50};var
 
 
 ActionSheet=function(_Component){_inherits(ActionSheet,_Component);
