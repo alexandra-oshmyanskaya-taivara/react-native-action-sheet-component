@@ -104,7 +104,7 @@ const defaultProps = {
   hideOnSelceted: true,
   hideOnHardwareBackPress: true,
   children: null,
-  maxHeight: Dimensions.get('window').height / 2,
+  maxHeight: Dimensions.get('window').height - 50,
 };
 
 class ActionSheet extends Component {
